@@ -1,0 +1,16 @@
+FILENAME = {{cookiecutter.document_name}}
+
+TARGET = $(FILENAME).target
+SOURCE = $(FILENAME).source
+
+.PHONY: clean rebuild all
+
+#all: $(TARGET)
+#
+#$(TARGET): $(SOURCE)
+#    cp $(SOURCE) $(TARGET)
+#
+#clean:
+#    rm $(TARGET)
+#
+#rebuild: clean all
