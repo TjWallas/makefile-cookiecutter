@@ -4,6 +4,7 @@ TARGET = $(FILENAME).target
 SOURCE = $(FILENAME).source
 
 .PHONY: clean rebuild all
+.POSIX:
 
 #all: $(TARGET)
 #
